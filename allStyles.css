@@ -1,0 +1,205 @@
+@import url(https://fonts.google.com/specimen/Roboto+Mono);
+body{
+    font-family: Robot Mono;
+    background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
+}
+
+nav { 
+    background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
+    font-size: 23px;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 25px;
+}
+
+nav a:hover{
+    color: red;
+}
+
+h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 60px;
+}
+
+h2{
+    text-align: left;
+    margin-left: 13%;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+hr{
+    margin: 0% 13% 0% 13%;
+    height: 2px;
+    background-color: black;
+}
+
+h3{
+    font-size: 20px;
+    margin-left: 13%;
+}
+
+.project-links{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.project-links:hover{
+    color: red;
+}
+
+img{
+    margin-left: 13%;
+}
+
+.USF{
+    width: 30%;
+    height: auto
+}
+
+p {
+    font-size: 23px;
+    margin-left: 13%;
+    margin-right: 13%;
+    line-height: 1.4;
+}
+
+.lastParagraph {
+    font-size: 23px;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-bottom: 4%;
+    line-height: 1.4;
+}
+
+p + ul {
+    font-size: 23px;
+    margin-left: 13%;
+    margin-right: 13%;
+    line-height: 1.4;
+}
+
+footer { 
+    background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
+    font-size: 16px;
+    padding: 60px;
+    text-align: center;
+    color: black;
+    line-height: 1.4;
+}
+
+@media (max-width: 1440px){
+    nav {
+        font-size: 35px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 28px;
+    }
+    .lastParagraph {
+        font-size: 28px;
+    }
+    p + ul{
+        font-size: 28px;
+    }
+    footer {
+        font-size: 20px;
+    }   
+}
+
+@media (max-width: 1024px){
+    nav {
+        font-size: 23px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .lastParagraph {
+        font-size: 20px;
+    }
+    p + ul{
+        font-size: 20px;
+    }
+    footer {
+        font-size: 15px;
+    } 
+}
+
+@media (max-width: 768px){
+    nav {
+        font-size: 19px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h2{
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    .lastParagraph {
+        font-size: 16px;
+    }
+    p + ul{
+        font-size: 16px;
+    }
+    footer {
+        font-size: 13px;
+    } 
+}
+
+@media (max-width: 425px){
+    nav {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .lastParagraph {
+        font-size: 12px;
+    }
+    p + ul{
+        font-size: 12px;
+    }
+    footer {
+        font-size: 10px;
+    } 
+
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 15px;
+    }
+
+    img{
+        width: 210px;
+        height: auto;
+    }
+
+    .USF{
+        width: 210px;
+        height: auto;
+    }
+
+    .project-links{
+        font-size: 12px;
+        text-decoration: none;
+    }
+}
