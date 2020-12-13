@@ -202,4 +202,8 @@ footer {
         font-size: 12px;
         text-decoration: none;
     }
+
+    nav a {
+        padding: 0 0 0 0;
+    }
 }
